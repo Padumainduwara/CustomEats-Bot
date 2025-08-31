@@ -1,0 +1,9 @@
+
+python -m venv venv 
+.\venv\Scripts\Activate.ps1
+npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
+npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion
+pip install fastapi uvicorn google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client gspread
+pip install uvicorn
+pip install fastapi uvicorn google-api-python-client google-auth
+uvicorn main:app --reload  
